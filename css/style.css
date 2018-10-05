@@ -5,8 +5,12 @@
     font-weight: normal;
     font-style: normal;
 }
-html{
+* {
+    padding : 0;
+    margin: 0;
+}
 
+html{
     width: 100%;
 }
 img {
@@ -93,18 +97,17 @@ td {
     font-size: 14px
 }
 
-
 body {
     padding-bottom: 30px;
 }
 
 /*pied de page*/
 footer {
+    bottom: 0;
     background-color: orange;
-    width: 100%;
     height: 30px;
     line-height: 30px;
     position: fixed;
-    bottom: 0px;
     text-align: center;
+    width: 100%;
 }
